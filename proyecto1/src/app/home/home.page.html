@@ -11,29 +11,24 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-title> 
-    Empezemos a viajar
-  </ion-title>
-  
-  <img src="assets/img/logo2.png" alt="viajemos"/>
 
-  <ion-tabs>
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="schedule">
-        <ion-icon name="calendar"></ion-icon>
-        <ion-label>prueba1</ion-label>
-        <ion-badge>6</ion-badge>
-      </ion-tab-button>
-  
-      <ion-tab-button tab="speakers">
-        <ion-icon name="person-circle"></ion-icon>
-        <ion-label>Speakers</ion-label>
-      </ion-tab-button>
+  <img src="assets/img/logo2.png" alt="viajemos" class="imginicio"/>
 
-      <ion-tab-button tab="about">
-        <ion-icon name="information-circle"></ion-icon>
-        <ion-label>Nosotros</ion-label>
-      </ion-tab-button>
-    </ion-tab-bar>
-  </ion-tabs>
+  <ion-content padding>
+
+      <ion-item>
+          <ion-label floating primary>Username</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item> 
+
+      <ion-item>
+          <ion-label floating primary>Password</ion-label>
+          <ion-input type="password"></ion-input>
+      </ion-item> 
+
+      <ion-button expand="block" class="botoninicio"> Inciar sesión </ion-button>
+
+    </ion-content>
+    
 </ion-content>
+
