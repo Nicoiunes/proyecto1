@@ -10,7 +10,7 @@
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <img src="assets/img/cordobario.jpeg" alt="viajemos"/>
+      <img src="assets/img/cordobario.jpeg" alt="cordobario" class="img"/>
       <ion-card-title class="titulo">Córdoba</ion-card-title>
     </ion-card-header>
     <div class="parrafo">
@@ -44,4 +44,23 @@
       <ion-button fill="outline" slot="end" href="https://www.google.com/maps/place/R%C3%ADo+Negro/@-39.7632418,-69.5937359,7z/data=!3m1!4b1!4m5!3m4!1s0x95e282c4b0a6530b:0xc2dfc6ff33b0aedb!8m2!3d-40.7344343!4d-66.6176455?hl=es">Ver</ion-button>
     </ion-item>
   </ion-card>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="schedule">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>prueba1</ion-label>
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-icon name="person-circle"></ion-icon>
+        <ion-label>Speakers</ion-label>
+      </ion-tab-button>
+      
+      <ion-tab-button tab="about">
+        <ion-icon name="information-circle"></ion-icon>
+        <ion-label>Nosotros</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
