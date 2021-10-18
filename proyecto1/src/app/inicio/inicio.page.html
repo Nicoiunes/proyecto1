@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>inicio</ion-title>
+    <ion-avatar slot="end" class="logo">
+      <img src="assets/img/logo2.png"/>
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
@@ -8,22 +11,37 @@
   <ion-card>
     <ion-card-header>
       <img src="assets/img/cordobario.jpeg" alt="viajemos"/>
-      <ion-card-title>Córdoba</ion-card-title>
+      <ion-card-title class="titulo">Córdoba</ion-card-title>
     </ion-card-header>
+    <div class="parrafo">
     En su extenso territorio confluyen llanuras, sierras y valles que le dan identidad a Córdoba. 
-    El paisaje predominante en estas tierras mediterráneas -casi dos tercios del total- forma parte 
-    de una extensa llanura pampeana que se encuentra entre importantes áreas montañosas del oeste y 
-    la llanura del litoral y el este.
-    <ion-card-content>
-      
-    </ion-card-content>
+    El paisaje predominante en estas tierras mediterráneas forma parte de una extensa llanura pampeana.
+    </div>
   </ion-card>
   
   <ion-card>
     <ion-item>
       <ion-icon name="pin" slot="start"></ion-icon>
-      <ion-label>ion-item in a card, icon left, button right</ion-label>
-      <ion-button fill="outline" slot="end">View</ion-button>
+      <ion-label> Ubicación </ion-label>
+      <ion-button fill="outline" slot="end" href="https://www.google.com/maps/place/C%C3%B3rdoba/@-31.3992876,-64.264384,12z/data=!3m1!4b1!4m5!3m4!1s0x9432985f478f5b69:0xb0a24f9a5366b092!8m2!3d-31.4200833!4d-64.1887761">Ver</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/img/rionegro.jpeg" alt="Rio negro"/>
+      <ion-card-title class="titulo">Río Negro</ion-card-title>
+    </ion-card-header>
+    <div class="parrafo">
+    En el oeste las montañas dominan el paisaje, con grandes lagos y bosques espesos y demas. 
+    En ese paisaje árido, barrido por el viento aparecen ríos, arroyos y lagunas, pueblos, y productos originados por culturas de muy diverso origen.
+  </div>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label> Ubicación </ion-label>
+      <ion-button fill="outline" slot="end" href="https://www.google.com/maps/place/R%C3%ADo+Negro/@-39.7632418,-69.5937359,7z/data=!3m1!4b1!4m5!3m4!1s0x95e282c4b0a6530b:0xc2dfc6ff33b0aedb!8m2!3d-40.7344343!4d-66.6176455?hl=es">Ver</ion-button>
     </ion-item>
   </ion-card>
 </ion-content>
