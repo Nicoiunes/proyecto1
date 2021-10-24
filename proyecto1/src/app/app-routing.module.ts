@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'sobrenosotros',
     loadChildren: () => import('./sobrenosotros/sobrenosotros.module').then( m => m.SobrenosotrosPageModule)
   },
+  {
+    path: 'cordoba',
+    loadChildren: () => import('./cordoba/cordoba.module').then( m => m.CordobaPageModule)
+  },
 ];
 
 @NgModule({
