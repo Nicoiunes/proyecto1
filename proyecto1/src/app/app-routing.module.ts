@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'cordoba',
     loadChildren: () => import('./cordoba/cordoba.module').then( m => m.CordobaPageModule)
   },
+  {
+    path: 'cordoba',
+    loadChildren: () => import('./cordoba/cordoba.module').then( m => m.CordobaPageModule)
+  },
 ];
 
 @NgModule({
