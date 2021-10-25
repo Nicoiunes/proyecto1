@@ -27,6 +27,18 @@ const routes: Routes = [
     path: 'cordoba',
     loadChildren: () => import('./cordoba/cordoba.module').then( m => m.CordobaPageModule)
   },
+  {
+    path: 'bsas',
+    loadChildren: () => import('./bsas/bsas.module').then( m => m.BsasPageModule)
+  },
+  {
+    path: 'mendoza',
+    loadChildren: () => import('./mendoza/mendoza.module').then( m => m.MendozaPageModule)
+  },
+  {
+    path: 'rionegro',
+    loadChildren: () => import('./rionegro/rionegro.module').then( m => m.RionegroPageModule)
+  },
 ];
 
 @NgModule({
