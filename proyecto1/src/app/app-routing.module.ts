@@ -42,7 +42,11 @@ const routes: Routes = [
   {
     path: 'turismobs',
     loadChildren: () => import('./turismobs/turismobs.module').then( m => m.TurismobsPageModule)
+  },  {
+    path: 'turismrn',
+    loadChildren: () => import('./turismrn/turismrn.module').then( m => m.TurismrnPageModule)
   },
+
 ];
 
 @NgModule({
