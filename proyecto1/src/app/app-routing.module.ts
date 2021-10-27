@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'rionegro',
     loadChildren: () => import('./rionegro/rionegro.module').then( m => m.RionegroPageModule)
   },
+  {
+    path: 'turismobs',
+    loadChildren: () => import('./turismobs/turismobs.module').then( m => m.TurismobsPageModule)
+  },
 ];
 
 @NgModule({
