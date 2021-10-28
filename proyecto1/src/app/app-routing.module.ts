@@ -46,6 +46,10 @@ const routes: Routes = [
     path: 'turismrn',
     loadChildren: () => import('./turismrn/turismrn.module').then( m => m.TurismrnPageModule)
   },
+  {
+    path: 'turismmendoza',
+    loadChildren: () => import('./turismmendoza/turismmendoza.module').then( m => m.TurismmendozaPageModule)
+  },
 
 ];
 
