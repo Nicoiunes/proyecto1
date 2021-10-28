@@ -50,6 +50,10 @@ const routes: Routes = [
     path: 'turismmendoza',
     loadChildren: () => import('./turismmendoza/turismmendoza.module').then( m => m.TurismmendozaPageModule)
   },
+  {
+    path: 'deportebsas',
+    loadChildren: () => import('./deportebsas/deportebsas.module').then( m => m.DeportebsasPageModule)
+  },
 
 ];
 
