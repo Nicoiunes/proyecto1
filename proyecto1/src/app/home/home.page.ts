@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  public usuario: any;
+  public contra: any;
+
+  constructor(private homeService:HomeService) {}
+
+  comprobarlogin (){
+    this.homeService.check(this.usuario,this.contra).subscribe (datos=> {
+      console.log (datos);
+    })
+  } 
+
 
 }

@@ -79,6 +79,10 @@ const routes: Routes = [
     path: 'restaurantesbsas',
     loadChildren: () => import('./restaurantesbsas/restaurantesbsas.module').then( m => m.RestaurantesbsasPageModule)
   },
+  {
+    path: 'shppingbsas',
+    loadChildren: () => import('./shppingbsas/shppingbsas.module').then( m => m.ShppingbsasPageModule)
+  },
 
 
 ];

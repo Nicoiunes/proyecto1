@@ -8,16 +8,16 @@
   <ion-content padding>
 
       <ion-item>
-          <ion-label floating primary>Username</ion-label>
-          <ion-input type="text"></ion-input>
+          <ion-label floating primary >Username</ion-label>
+          <ion-input type="text" [(ngModel)]="usuario"></ion-input>
       </ion-item> 
 
       <ion-item>
-          <ion-label floating primary>Password</ion-label>
-          <ion-input type="password"></ion-input>
+          <ion-label floating primary >Password</ion-label>
+          <ion-input type="password" [(ngModel)]="contra"></ion-input>
       </ion-item> 
 
-      <ion-button href="http://localhost:8100/inicio" expand="block" class="botoninicio"> Inciar sesión </ion-button>
+      <ion-button (click)="comprobarlogin()" expand="block" class="botoninicio"> Inciar sesión </ion-button>
 
     </ion-content>
     
