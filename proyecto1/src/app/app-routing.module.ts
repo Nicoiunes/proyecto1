@@ -55,6 +55,7 @@ const routes: Routes = [
     loadChildren: () => import('./deportebsas/deportebsas.module').then( m => m.DeportebsasPageModule)
   },
   {
+<<<<<<< Updated upstream
     path: 'deportemendoza',
     loadChildren: () => import('./deportemendoza/deportemendoza.module').then( m => m.DeportemendozaPageModule)
   },
@@ -97,6 +98,10 @@ const routes: Routes = [
   {
     path: 'shoppingmendoza',
     loadChildren: () => import('./shoppingmendoza/shoppingmendoza.module').then( m => m.ShoppingmendozaPageModule)
+=======
+    path: 'restaurantesbsas',
+    loadChildren: () => import('./restaurantesbsas/restaurantesbsas.module').then( m => m.RestaurantesbsasPageModule)
+>>>>>>> Stashed changes
   },
 
 ];
