@@ -74,6 +74,14 @@ const routes: Routes = [
     path: 'turismcordoba',
     loadChildren: () => import('./turismcordoba/turismcordoba.module').then( m => m.TurismcordobaPageModule)
   },
+  {
+    path: 'deporterm',
+    loadChildren: () => import('./deporterm/deporterm.module').then( m => m.DeportermPageModule)
+  },
+  {
+    path: 'restaurantern',
+    loadChildren: () => import('./restaurantern/restaurantern.module').then( m => m.RestauranternPageModule)
+  },
 
 ];
 
