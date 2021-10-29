@@ -82,6 +82,22 @@ const routes: Routes = [
     path: 'restaurantern',
     loadChildren: () => import('./restaurantern/restaurantern.module').then( m => m.RestauranternPageModule)
   },
+  {
+    path: 'shoppingbsas',
+    loadChildren: () => import('./shoppingbsas/shoppingbsas.module').then( m => m.ShoppingbsasPageModule)
+  },
+  {
+    path: 'shoppingcordoba',
+    loadChildren: () => import('./shoppingcordoba/shoppingcordoba.module').then( m => m.ShoppingcordobaPageModule)
+  },
+  {
+    path: 'shoppingrn',
+    loadChildren: () => import('./shoppingrn/shoppingrn.module').then( m => m.ShoppingrnPageModule)
+  },
+  {
+    path: 'shoppingmendoza',
+    loadChildren: () => import('./shoppingmendoza/shoppingmendoza.module').then( m => m.ShoppingmendozaPageModule)
+  },
 
 ];
 
