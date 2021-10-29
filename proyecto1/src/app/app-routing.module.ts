@@ -42,7 +42,8 @@ const routes: Routes = [
   {
     path: 'turismobs',
     loadChildren: () => import('./turismobs/turismobs.module').then( m => m.TurismobsPageModule)
-  },  {
+  },
+  {
     path: 'turismrn',
     loadChildren: () => import('./turismrn/turismrn.module').then( m => m.TurismrnPageModule)
   },
@@ -55,7 +56,6 @@ const routes: Routes = [
     loadChildren: () => import('./deportebsas/deportebsas.module').then( m => m.DeportebsasPageModule)
   },
   {
-<<<<<<< Updated upstream
     path: 'deportemendoza',
     loadChildren: () => import('./deportemendoza/deportemendoza.module').then( m => m.DeportemendozaPageModule)
   },
@@ -75,34 +75,7 @@ const routes: Routes = [
     path: 'turismcordoba',
     loadChildren: () => import('./turismcordoba/turismcordoba.module').then( m => m.TurismcordobaPageModule)
   },
-  {
-    path: 'deporterm',
-    loadChildren: () => import('./deporterm/deporterm.module').then( m => m.DeportermPageModule)
-  },
-  {
-    path: 'restaurantern',
-    loadChildren: () => import('./restaurantern/restaurantern.module').then( m => m.RestauranternPageModule)
-  },
-  {
-    path: 'shoppingbsas',
-    loadChildren: () => import('./shoppingbsas/shoppingbsas.module').then( m => m.ShoppingbsasPageModule)
-  },
-  {
-    path: 'shoppingcordoba',
-    loadChildren: () => import('./shoppingcordoba/shoppingcordoba.module').then( m => m.ShoppingcordobaPageModule)
-  },
-  {
-    path: 'shoppingrn',
-    loadChildren: () => import('./shoppingrn/shoppingrn.module').then( m => m.ShoppingrnPageModule)
-  },
-  {
-    path: 'shoppingmendoza',
-    loadChildren: () => import('./shoppingmendoza/shoppingmendoza.module').then( m => m.ShoppingmendozaPageModule)
-=======
-    path: 'restaurantesbsas',
-    loadChildren: () => import('./restaurantesbsas/restaurantesbsas.module').then( m => m.RestaurantesbsasPageModule)
->>>>>>> Stashed changes
-  },
+
 
 ];
 
