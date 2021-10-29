@@ -62,6 +62,18 @@ const routes: Routes = [
     path: 'restaurantemendoza',
     loadChildren: () => import('./restaurantemendoza/restaurantemendoza.module').then( m => m.RestaurantemendozaPageModule)
   },
+  {
+    path: 'deportecordoba',
+    loadChildren: () => import('./deportecordoba/deportecordoba.module').then( m => m.DeportecordobaPageModule)
+  },
+  {
+    path: 'restaurantecordoba',
+    loadChildren: () => import('./restaurantecordoba/restaurantecordoba.module').then( m => m.RestaurantecordobaPageModule)
+  },
+  {
+    path: 'turismcordoba',
+    loadChildren: () => import('./turismcordoba/turismcordoba.module').then( m => m.TurismcordobaPageModule)
+  },
 
 ];
 
