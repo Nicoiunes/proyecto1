@@ -54,6 +54,14 @@ const routes: Routes = [
     path: 'deportebsas',
     loadChildren: () => import('./deportebsas/deportebsas.module').then( m => m.DeportebsasPageModule)
   },
+  {
+    path: 'deportemendoza',
+    loadChildren: () => import('./deportemendoza/deportemendoza.module').then( m => m.DeportemendozaPageModule)
+  },
+  {
+    path: 'restaurantemendoza',
+    loadChildren: () => import('./restaurantemendoza/restaurantemendoza.module').then( m => m.RestaurantemendozaPageModule)
+  },
 
 ];
 
