@@ -11,5 +11,12 @@ export class TurismmendozaPage implements OnInit {
 
   ngOnInit() {
   }
+  option = {
+    slidesPerView: 1.5,
+    centerSlides: true, 
+    loop: true,
+    spaceBetween: 10,
+    autoplay: true,
 
+  }
 }
