@@ -18,7 +18,7 @@ export class HomePage {
     this.homeService.check(this.usuario,this.contra).subscribe (datos=> {
       console.log (datos);
       if(datos["length"]==0){
-        alert ("datos invalidos")
+        alert ("Datos invalidos")
       }
       else{
         this.router.navigate(['/inicio'])
