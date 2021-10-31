@@ -1,0 +1,48 @@
+ion-title{
+    font-weight: 600;
+}
+
+ion-card{
+    width: 100%;
+    height: 160px;
+    box-shadow: none;
+    border-radius: 12px;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+}
+
+.swiper-slide-active{
+    transform: scale(1.05, 1.05);
+
+    ion-card {
+        transform: scale(1, 1);
+    }
+}
+
+.swiper-slide{
+    transition: 400ms all ease-in-out;
+}
+
+.p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.h2{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.logo{     
+    width:70% !important;  
+    height : 70% !important;  
+    max-width: 70px !important;  
+    max-height: 70px !important; 
+    }
