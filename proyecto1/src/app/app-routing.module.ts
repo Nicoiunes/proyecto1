@@ -99,6 +99,10 @@ const routes: Routes = [
     path: 'shoppingmendoza',
     loadChildren: () => import('./shoppingmendoza/shoppingmendoza.module').then( m => m.ShoppingmendozaPageModule)
   },
+  {
+    path: 'shoppingrn',
+    loadChildren: () => import('./shoppingrn/shoppingrn.module').then( m => m.ShoppingrnPageModule)
+  },
   
 
 
