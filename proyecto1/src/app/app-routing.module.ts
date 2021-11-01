@@ -82,7 +82,8 @@ const routes: Routes = [
   {
     path: 'shppingbsas',
     loadChildren: () => import('./shppingbsas/shppingbsas.module').then( m => m.ShppingbsasPageModule)
-  },  {
+  },
+  {
     path: 'deportern',
     loadChildren: () => import('./deportern/deportern.module').then( m => m.DeporternPageModule)
   },
@@ -90,7 +91,11 @@ const routes: Routes = [
     path: 'restaurantern',
     loadChildren: () => import('./restaurantern/restaurantern.module').then( m => m.RestauranternPageModule)
   },
-
+  {
+    path: 'shoppingcordoba',
+    loadChildren: () => import('./shoppingcordoba/shoppingcordoba.module').then( m => m.ShoppingcordobaPageModule)
+  },
+  
 
 
 ];
