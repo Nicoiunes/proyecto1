@@ -95,6 +95,14 @@ const routes: Routes = [
     path: 'shoppingcordoba',
     loadChildren: () => import('./shoppingcordoba/shoppingcordoba.module').then( m => m.ShoppingcordobaPageModule)
   },
+  {
+    path: 'shoppingmendoza',
+    loadChildren: () => import('./shoppingmendoza/shoppingmendoza.module').then( m => m.ShoppingmendozaPageModule)
+  },
+  {
+    path: 'shoppingrn',
+    loadChildren: () => import('./shoppingrn/shoppingrn.module').then( m => m.ShoppingrnPageModule)
+  },
   
 
 
