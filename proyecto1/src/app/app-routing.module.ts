@@ -102,7 +102,11 @@ const routes: Routes = [
   {
     path: 'shoppingrn',
     loadChildren: () => import('./shoppingrn/shoppingrn.module').then( m => m.ShoppingrnPageModule)
+  },  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
+
   
 
 
