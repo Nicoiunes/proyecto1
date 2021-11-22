@@ -106,6 +106,10 @@ const routes: Routes = [
     path: 'registro',
     loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
   },
+  {
+    path: 'experiencias',
+    loadChildren: () => import('./experiencias/experiencias.module').then( m => m.ExperienciasPageModule)
+  },
 
   
 
