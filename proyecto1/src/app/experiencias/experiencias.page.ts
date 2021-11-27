@@ -10,13 +10,13 @@ export class ExperienciasPage implements OnInit {
 
   constructor(private experienciasService: experienciasService) {}
 
-public fotos
+public fotos:any
 
   ngOnInit(){
     this.experienciasService.getData().subscribe(data =>{
-      console.log(data);
+      console.log(data[0].url);
 
 this.fotos=data
     })
-  }}
+  }}
 

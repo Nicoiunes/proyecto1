@@ -16,13 +16,17 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid>
-    <ion-row *ngFor= "let foto of foto; let i = index;"> 
-      <ion-col size="6" >
-     <img url="{{fotos[i].url}}" *ngIf="fotos != undefined" >
-    
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  
+ <div *ngIf="fotos!=undefined"> 
+  <div  *ngFor="let f of fotos">
+    <br>
+   
+   <ion-img [src]="f.url" *ngIf="f!=undefined"> 
+
+  </ion-img> 
+
+   </div>
+  </div>
+ 
 
 </ion-content>
