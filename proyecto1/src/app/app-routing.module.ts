@@ -110,6 +110,10 @@ const routes: Routes = [
     path: 'experiencias',
     loadChildren: () => import('./experiencias/experiencias.module').then( m => m.ExperienciasPageModule)
   },
+  {
+    path: 'socios',
+    loadChildren: () => import('./socios/socios.module').then( m => m.SociosPageModule)
+  },
 
   
 
