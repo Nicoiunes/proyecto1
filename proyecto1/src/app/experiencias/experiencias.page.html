@@ -17,16 +17,16 @@
 
 <ion-content>
   
- <div *ngIf="fotos!=undefined"> 
-  <div  *ngFor="let f of fotos">
-    <br>
+ <div > 
+  <ion-card  *ngFor="let f of fotos" class="card">
+ 
    
    <ion-img [src]="f.url" *ngIf="f!=undefined"> 
 
   </ion-img> 
 
-   </div>
-  </div>
- 
+   
+  </ion-card>
+</div>
 
 </ion-content>
