@@ -14,5 +14,9 @@ ion-title{
         transform: scale(1.1, 1.1) rotate(1deg);
         transition: 600ms all ease-in-out;
     }
+    .card {
+        max-width: 100%;
+         max-height: 100%;
+    }
 
 
